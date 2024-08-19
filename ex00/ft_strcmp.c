@@ -6,7 +6,7 @@
 /*   By: cokeke <cokeke@student.42london.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/19 16:48:23 by cokeke            #+#    #+#             */
-/*   Updated: 2024/08/19 17:34:12 by cokeke           ###   ########.fr       */
+/*   Updated: 2024/08/19 17:38:10 by cokeke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ft_strcmp(char *s1, char *s2)
 	}
 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
-
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -36,3 +36,4 @@ int	main(void)
 	printf("%d\n", checker);
 	return (0);
 }
+*/
