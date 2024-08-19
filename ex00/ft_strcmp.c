@@ -6,7 +6,7 @@
 /*   By: cokeke <cokeke@student.42london.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/19 16:48:23 by cokeke            #+#    #+#             */
-/*   Updated: 2024/08/19 17:27:58 by cokeke           ###   ########.fr       */
+/*   Updated: 2024/08/19 17:34:12 by cokeke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,8 @@ int	main(void)
 	int	checker;
 
 	checker = ft_strcmp("hello", "hello");
-	printf("%d", checker);
+	printf("%d\n", checker);
+	checker = ft_strcmp("Hello", "Helloo");
+	printf("%d\n", checker);
 	return (0);
 }
